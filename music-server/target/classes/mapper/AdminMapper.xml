@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!--mapper：当前文件根标签-->
+<!--namespace：命名空间，使用dao接口的全限定名称-->
+<mapper namespace="com.boot.dao.AdminMapper">
+    <resultMap id="BaseResultMap" type="com.boot.domain.Admin">
+        <id column="id" jdbcType="INTEGER" property="id"/>
+        <result column="name" jdbcType="VARCHAR" property="name"/>
+        <result column="password" jdbcType="VARCHAR" property="password"/>
+    </resultMap>
+
+    <!--查询id，用户名及密码,查询出则count(*)>0-->
+    <select id="verifyPassword" resultType="java.lang.Integer">
+        select count(*) from admin where name=#{username} and password=#{password}
+    </select>
+
+</mapper>

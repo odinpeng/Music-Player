@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDialectMappings">
+    <file url="file://$PROJECT_DIR$/sql/music.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/mapper/AdminMapper.xml" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/mapper/CollectMapper.xml" dialect="Sybase" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/mapper/CommentMapper.xml" dialect="AZURE" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/mapper/ConsumerMapper.xml" dialect="Sybase" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/mapper/ListSongMapper.xml" dialect="Sybase" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/mapper/RankMapper.xml" dialect="Sybase" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/mapper/SingerMapper.xml" dialect="AZURE" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/mapper/SongListMapper.xml" dialect="AZURE" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/mapper/SongMapper.xml" dialect="AZURE" />
+  </component>
+  <component name="SqlResolveMappings">
+    <file url="file://$PROJECT_DIR$/src/main/resources/mapper/SingerMapper.xml" scope="{&quot;node&quot;:{  &quot;@negative&quot;:&quot;1&quot;,  &quot;group&quot;:{   &quot;@kind&quot;:&quot;root&quot;,   &quot;node&quot;:{    &quot;name&quot;:{     &quot;@qname&quot;:&quot;99611d30-e360-4908-89b3-42fcefb62326&quot;    },    &quot;group&quot;:{     &quot;@kind&quot;:&quot;schema&quot;,     &quot;node&quot;:{      &quot;name&quot;:{       &quot;@qname&quot;:&quot;music&quot;      }     }    }   }  } }}" />
+    <file url="PROJECT" scope="{&quot;node&quot;:{  &quot;@negative&quot;:&quot;1&quot;,  &quot;group&quot;:{   &quot;@kind&quot;:&quot;root&quot;,   &quot;node&quot;:{    &quot;name&quot;:{     &quot;@qname&quot;:&quot;99611d30-e360-4908-89b3-42fcefb62326&quot;    },    &quot;group&quot;:{     &quot;@kind&quot;:&quot;schema&quot;,     &quot;node&quot;:{      &quot;name&quot;:{       &quot;@qname&quot;:&quot;music&quot;      }     }    }   }  } }}" />
+  </component>
+</project>
